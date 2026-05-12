@@ -1,6 +1,16 @@
 # T6-week11
-Aplikasi desktop CRUD Post Manager menggunakan Python PySide6 dan REST API.
-Aplikasi menerapkan multi-threading agar UI tetap responsif saat melakukan request API.
+## Deskripsi Program
+
+Program ini merupakan aplikasi desktop **Post Manager** yang dibuat menggunakan bahasa pemrograman Python dengan framework **PySide6** untuk antarmuka (GUI). Aplikasi ini terhubung dengan layanan **REST API** pada endpoint: https://api.pahrul.my.id/api/posts
+
+Aplikasi ini dibuat untuk mengelola data post secara lengkap menggunakan operasi CRUD (Create, Read, Update, Delete). Seluruh proses komunikasi dengan API dilakukan menggunakan library `requests` dan dijalankan pada thread terpisah menggunakan `QThreadPool` serta `QRunnable` agar tampilan aplikasi tetap responsif dan tidak mengalami freeze saat melakukan request data.Pada aplikasi ini, pengguna dapat melihat daftar seluruh post yang tersedia pada server, melihat detail post beserta komentar, menambahkan post baru, mengedit data post, dan menghapus post beserta komentar yang berkaitan (cascade delete).
+Selain itu, aplikasi juga menerapkan error handling untuk menangani kondisi seperti:
+- koneksi internet bermasalah,
+- timeout request,
+- validasi data dari server,
+- serta validasi slug unik dengan response error `422`.
+
+## Fitur yang Diimplementasikan
 
 ## Fitur
 - GET semua post
@@ -14,8 +24,7 @@ Aplikasi menerapkan multi-threading agar UI tetap responsif saat melakukan reque
 
 
 ---
-
-## 5. Screenshot
+Screenshot
 
 Contoh:
 
@@ -23,7 +32,7 @@ Contoh:
 ## Screenshot
 
 ### Tampilan Utama
-![c:\Users\ASUS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\3EB9F78D651A9B5C4D6D11F22170F1E93DB44E05\transfers\2026-20\WhatsApp Image 2026-05-13 at 00.52.11.jpeg UI](screenshots/main-ui.png)
+![](screenshots/main-ui.png)
 
 ### GET Posts
 ![GET](screenshots/get-posts.png)
