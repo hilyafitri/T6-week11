@@ -21,19 +21,15 @@ Selain itu, aplikasi juga menerapkan error handling untuk menangani kondisi sepe
 - Error handling
 - Validasi slug unik
 
-
-Screenshot
-
-Contoh:
 ## Screenshot
 
 ### Tampilan Utama
 ![Main](./main-ui.jpeg)
 
-### Detail Posts
+### Detail Post
 ![Detail](./detail-post.jpeg)
 
-### Tammbah Post
+### Tambah Post
 ![Tambah](./tambah-post.jpeg)
 
 ### Edit Post
