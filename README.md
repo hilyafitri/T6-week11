@@ -31,21 +31,21 @@ Contoh:
 ## Screenshot
 
 ### Tampilan Utama
-![Main](screenshots/main-ui.png)
+![Main](main-ui.jpeg)
 
 ### Detail Posts
-![Detail](screenshots/detail-post.png)
+![Detail](detail-post.jpeg)
 
 ### Tammbah Post
-![Tambah](screenshots/tambah-post.png)
+![Tambah](tambah-post.jpeg)
 
 ### Edit Post
-![Edit](screenshots/edit-post.png)
+![Edit](edit-post.jpeg)
 
 ### Hapus Post
-![Hapus](screenshots/hapus-post.png)
+![Hapus](hapus-post.jpeg)
 
 ### Validasi Slug
-![Validasi](screenshots/validasi-slug.png)
+![Validasi](validasi-slug.jpeg)
 
 
