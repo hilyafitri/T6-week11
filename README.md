@@ -34,7 +34,7 @@ Contoh:
 ![Main](main-ui.jpeg)
 
 ### Detail Posts
-![Detail](detail-post.jpeg)
+![Detail](screenshots/detail-post.jpeg)
 
 ### Tammbah Post
 ![Tambah](tambah-post.jpeg)
