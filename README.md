@@ -22,12 +22,9 @@ Selain itu, aplikasi juga menerapkan error handling untuk menangani kondisi sepe
 - Validasi slug unik
 
 
----
 Screenshot
 
 Contoh:
-
-```md
 ## Screenshot
 
 ### Tampilan Utama
